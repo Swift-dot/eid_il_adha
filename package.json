@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://Swift-dot.github.io/eid_il_adha",
+  "homepage": "https://Swift-dot.github.io/eid_il_adha_gh",
   "private": true,
   "dependencies": {
     "node-sass": "^7.0.1",
@@ -12,7 +12,7 @@
     "react-whatsapp": "^0.3.0"
   },
   "scripts": {
-    "predeploy": "npm start",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
