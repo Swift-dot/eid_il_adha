@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/eid_il_adha_gh/static/css/main.84edde8a.css",
-    "main.js": "/eid_il_adha_gh/static/js/main.331dedea.js",
-    "static/media/Eid_Aldha_Background.jpg": "/eid_il_adha_gh/static/media/Eid_Aldha_Background.5b692491b0a12b6f1b72.jpg",
-    "static/media/typo.png": "/eid_il_adha_gh/static/media/typo.a1723c54a14ad10b85d3.png",
-    "static/media/whatsapp.png": "/eid_il_adha_gh/static/media/whatsapp.94b287df16ac2662336e.png",
-    "index.html": "/eid_il_adha_gh/index.html",
-    "main.84edde8a.css.map": "/eid_il_adha_gh/static/css/main.84edde8a.css.map",
-    "main.331dedea.js.map": "/eid_il_adha_gh/static/js/main.331dedea.js.map"
+    "main.css": "/eid_il_adha/static/css/main.691686fc.css",
+    "main.js": "/eid_il_adha/static/js/main.9dfbca25.js",
+    "static/media/Eid_Aldha_Background.jpg": "/eid_il_adha/static/media/Eid_Aldha_Background.5b692491b0a12b6f1b72.jpg",
+    "static/media/typo.png": "/eid_il_adha/static/media/typo.a1723c54a14ad10b85d3.png",
+    "static/media/whatsapp.png": "/eid_il_adha/static/media/whatsapp.94b287df16ac2662336e.png",
+    "index.html": "/eid_il_adha/index.html",
+    "main.691686fc.css.map": "/eid_il_adha/static/css/main.691686fc.css.map",
+    "main.9dfbca25.js.map": "/eid_il_adha/static/js/main.9dfbca25.js.map"
   },
   "entrypoints": [
-    "static/css/main.84edde8a.css",
-    "static/js/main.331dedea.js"
+    "static/css/main.691686fc.css",
+    "static/js/main.9dfbca25.js"
   ]
 }
