@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+:root{
+    --font-base: "DM Sans", sans-serif;
+    --primary-color:#edf2f8;
+    --secondary-color: #313bac;
+    --black-color: #030303;
+    --lightGray-color: #e4e4e4;
+    --gray-color: #6b7688;
+    --brown-color: #46364a;
+    --white-color: #ffffff;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.app{
+    font-family: "DM Sans", sans-serif;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: url('./Count_Down/Eid_Aldha_Background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.clock{
+   
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 360px;
+    background-color: #045827;
+    color: #fff;
+    text-shadow: 1px 1px 2px;
+    border-radius: 16px;
+    overflow-y: auto;
+    border: 4px solid #fff;
+    box-shadow: 1px 1px 3px;
+}
+.timer-container img{
+    width: 400px;
+   margin-top: -90px;
+    margin-bottom: -70px;
+    
+}
+.clock section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.clock section p{
+    font-size: 3rem;
+}
+.clock section small{
+    text-shadow: none;
+    color: silver;
+}
+
+
+footer{
+    background-color: #045827;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+
+   
+}
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 19s linear infinite;
+}
+
+
+
+
+.background li:nth-child(0) {
+    left: 28%;
+    width: 135px;
+    height: 135px;
+    bottom: -135px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 86%;
+    width: 112px;
+    height: 112px;
+    bottom: -112px;
+    animation-delay: 5s;
+}
+.background li:nth-child(2) {
+    left: 79%;
+    width: 173px;
+    height: 173px;
+    bottom: -173px;
+    animation-delay: 4s;
+}
+.background li:nth-child(3) {
+    left: 71%;
+    width: 149px;
+    height: 149px;
+    bottom: -149px;
+    animation-delay: 14s;
+}
+.background li:nth-child(4) {
+    left: 37%;
+    width: 133px;
+    height: 133px;
+    bottom: -133px;
+    animation-delay: 10s;
+}
+.background li:nth-child(5) {
+    left: 76%;
+    width: 169px;
+    height: 169px;
+    bottom: -169px;
+    animation-delay: 4s;
+}
+.background li:nth-child(6) {
+    left: 79%;
+    width: 101px;
+    height: 101px;
+    bottom: -101px;
+    animation-delay: 13s;
+}
+.background li:nth-child(7) {
+    left: 19%;
+    width: 129px;
+    height: 129px;
+    bottom: -129px;
+    animation-delay: 21s;
+}
+.background li:nth-child(8) {
+    left: 7%;
+    width: 166px;
+    height: 166px;
+    bottom: -166px;
+    animation-delay: 38s;
+}
+.background li:nth-child(9) {
+    left: 82%;
+    width: 195px;
+    height: 195px;
+    bottom: -195px;
+    animation-delay: 36s;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    width: 100%;
+    top: 0;
+    padding: 10px 20px;
+    position: fixed;
+    background-color: #045827;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 50px;
+
+}
+
+header p{
+    font-weight: 600;
+}
+header a:hover{
+    cursor: p;
+}
+
+
+
+
+/* 
+
+
+main{
+    display: flex;
+    flex-grow: 1;
+    overflow-y: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+footer p{
+    text-align: center;
+} */
